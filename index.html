@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Privacy Policy</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f0f0f0;
+      }
+      header {
+        background-color: #007bff;
+        color: #fff;
+        text-align: center;
+        padding: 20px;
+      }
+      h1 {
+        margin-top: 20px;
+        font-size: 28px;
+      }
+      p {
+        margin-bottom: 15px;
+        font-size: 16px;
+      }
+      a {
+        color: #007bff;
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Privacy Policy</h1>
+    </header>
+    <div class="container">
+      <p>
+        Your privacy is important to us. It is purnakumbham's policy to respect
+        your privacy regarding any information we may collect from you across
+        our website.
+      </p>
+
+      <p>
+        We only ask for personal information when we truly need it to provide a
+        service to you. We collect it by fair and lawful means, with your
+        knowledge and consent. We also let you know why we’re collecting it and
+        how it will be used.
+      </p>
+
+      <p>
+        We may include links to external websites or resources, such as
+        <a href="https://www.wikipedia.org/">Wikipedia</a> and other public
+        resources. We are not responsible for the privacy practices and content
+        of these external sites. Please review their privacy policies if you
+        visit these external websites.
+      </p>
+
+      <p>
+        For more details, please read our full
+        <a href="https://jasti-karthikeya.github.io/Blog_aboutus/">About Us</a>.
+      </p>
+
+      <p>
+        If you have any questions or concerns about our Privacy Policy, feel
+        free to <a href="contact.html">contact us</a>.
+      </p>
+      <button
+        id="translate-button"
+        onclick="translateToTelugu()"
+        style="
+          padding: 10px;
+          background-color: #007bff;
+          color: #fff;
+          font-weight: bold;
+          font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+            sans-serif;
+          font-size: medium;
+        "
+      >
+        Translate
+      </button>
+
+      <div id="translated-content" style="display: none">
+        <p>
+          మీ గోప్యత మాకు ముఖ్యం. మా వెబ్‌సైట్‌లో మేము మీ నుండి సేకరించే ఏదైనా
+          సమాచారానికి సంబంధించి మీ గోప్యతను గౌరవించడం పూర్ణకుంభం యొక్క విధానం.
+          మీకు సేవను అందించడానికి మాకు నిజంగా అవసరమైనప్పుడు మాత్రమే మేము
+          వ్యక్తిగత సమాచారాన్ని అడుగుతాము. మేము దానిని మీ జ్ఞానం మరియు సమ్మతితో
+          న్యాయమైన మరియు చట్టబద్ధమైన మార్గాల ద్వారా సేకరిస్తాము. మేము దీన్ని
+          ఎందుకు సేకరిస్తున్నాము మరియు అది ఎలా ఉపయోగించబడుతుందో కూడా మీకు
+          తెలియజేస్తాము. మేము వికీపీడియా మరియు ఇతర పబ్లిక్ వనరుల వంటి బాహ్య
+          వెబ్‌సైట్‌లు లేదా వనరులకు లింక్‌లను చేర్చవచ్చు. ఈ బాహ్య సైట్‌ల గోప్యతా
+          పద్ధతులు మరియు కంటెంట్‌కు మేము బాధ్యత వహించము. మీరు ఈ బాహ్య
+          వెబ్‌సైట్‌లను సందర్శిస్తే దయచేసి వారి గోప్యతా విధానాలను సమీక్షించండి.
+        </p>
+      </div>
+    </div>
+
+    <script>
+      function translateToTelugu() {
+        // Toggle the display of the translated content
+        const translatedContent = document.getElementById("translated-content");
+        if (translatedContent.style.display === "none") {
+          translatedContent.style.display = "block";
+        } else {
+          translatedContent.style.display = "none";
+        }
+      }
+    </script>
+  </body>
+</html>
